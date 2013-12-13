@@ -4,6 +4,7 @@ package
 	/**
 	 * ...
 	 * @author Johanna
+	 * 2013HT
 	 */
 	public class MyRect extends Sprite
 	{
