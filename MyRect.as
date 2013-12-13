@@ -3,8 +3,8 @@ package
 	import flash.display.Sprite;
 	/**
 	 * ...
-	 * @author Johanna
-	 * 2013HT
+	 * @author Johanna Rasmussen
+	 * 2013-12-13HT
 	 */
 	public class MyRect extends Sprite
 	{
