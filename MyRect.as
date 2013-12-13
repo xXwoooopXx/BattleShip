@@ -4,7 +4,7 @@ package
 	/**
 	 * ...
 	 * @author Johanna Rasmussen
-	 * 2013-12-13HT
+	 * 2013-12-13, HT
 	 */
 	public class MyRect extends Sprite
 	{

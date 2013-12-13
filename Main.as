@@ -8,7 +8,8 @@ package
 	
 	/**
 	 * ...
-	 * @author Johanna
+	 * @author Johanna Rasmussen
+	 * 2013-12-13, HT
 	 */
 	public class Main extends Sprite 
 	{
@@ -27,7 +28,7 @@ package
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 			// entry point
 			
-				t.text = "\nScore\nHits:0\nMissed:0";			//Lägger till ett textfällt som visar "Score", "Hits" och "Missed"
+				t.text = "\nScore\nHits:0\nMissed:0";			//Lägger till ett textfällt som visar "Score", "Hits" och "Missed". Den gör detta eftersom utan ett text fält så kan spelet inte visa vilka vilka score man får om man träffar och missar. 
 				addChild(t);
 				
 				t.background = true;							//Lägger till en border, bakrundsfärg, höjd, bredd, boxens y och x kordinater.
@@ -43,7 +44,7 @@ package
 			
 			for (var i:int = 0; i < 10; i++) 
 			{
-				var oneLine:Vector.<Sprite> = new Vector.<Sprite>();		//Lägger till 10*10 rutor, både vertikalt och horisontellt, från 0 - 9.
+				var oneLine:Vector.<Sprite> = new Vector.<Sprite>();		//Lägger till 10*10 rutor, både vertikalt och horisontellt, från 0 - 9. Eftersom om man lägger ut en vektor så blir det 10 tiles i en rak linje, men om man lägger ut en vektor i en verktor så lägger den ut 10 tiles i en rak linje efter varje tile. Alltså 10 st tiles på 0 och 10 st tiles på 1 och 10 st tiles på 2, osv ända upp till 9. 
 				for (var h:int = 0; h < 10; h++) 
 				{
 					var column:MyRect = new MyRect();
